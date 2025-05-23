@@ -246,13 +246,24 @@ body {
 
 .team-list-item {
   width: calc((100% - 3 * 24px) / 4);
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff; */
+
+}
+
+.content-wrapper-team {
+  align-items: center;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-text-title {
@@ -262,8 +273,11 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
+}
+
+.team-text {
+  text-align: center;
 }
 
 /* portfolio style */
@@ -317,8 +331,6 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
-.footer-container {}
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
